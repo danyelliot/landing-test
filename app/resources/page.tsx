@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Input } from "@/components/ui/input"
-import ResourceCard from "../components/ResourceCard"
+import ResourceCard from "@/app/components/ResourceCard"
 
 // Define the resource data
 const allResources = [
