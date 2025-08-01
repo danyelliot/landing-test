@@ -4,6 +4,9 @@ const nextConfig = {
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
   distDir: 'out',
+  // Configuración específica para GitHub Pages con subdirectorio
+  basePath: '/landing-test',
+  assetPrefix: '/landing-test',
   eslint: {
     ignoreDuringBuilds: true,
   },
